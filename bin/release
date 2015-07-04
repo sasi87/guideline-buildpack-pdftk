@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-echo "--- {}"
+echo "---"
+echo "config_vars:"
+echo "  PATH: $PATH:/app/vendor/pdftk/bin"
+echo "  LD_LIBRARY_PATH: $LD_LIBRARY_PATH:/app/vendor/pdftk/lib"
